@@ -7,11 +7,10 @@
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "sourceMap": true,
-        "outDir": "./build"
+        "sourceMap": true
     },
     "include": [
-        "./src/index.ts"
+        "./index.ts"
     ],
     "exclude": [
         "node_modules"
