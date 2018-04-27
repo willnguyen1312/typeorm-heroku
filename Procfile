@@ -1,1 +1,1 @@
-web: ts-node .
+web: ./node_modules/.bin/tsc && node .

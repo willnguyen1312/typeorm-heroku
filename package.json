@@ -4,8 +4,7 @@
   "name": "hello-world-node-typescript-heroku",
   "private": true,
   "scripts": {
-    "start": "ts-node .",
-    "heroku-postbuild": "npm i -g ts-node"
+    "start": "./node_modules/.bin/tsc && node ."
   },
   "version": "0.0.1",
   "devDependencies": {

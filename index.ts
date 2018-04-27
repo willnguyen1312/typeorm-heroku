@@ -3,7 +3,7 @@ import * as route from 'koa-router'
 
 const router = new route()
 
-router.get('/', ctx => ctx.body = "Hi there")
+router.get('/', ctx => ctx.body = "Hi baby")
 
 const app = new koa()
 
